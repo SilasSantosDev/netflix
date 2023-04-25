@@ -49,6 +49,9 @@ body::before{
 }
 .container .box-input{
   margin-bottom: 25px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
 }
 .container input{
   height: 50px;
@@ -78,7 +81,7 @@ body::before{
 .container .btn:hover{
   background-color: #e60039;
 }
-.suport{
+.support{
   display: flex;
   align-items: center;
   justify-content:space-between;
